@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApiKey renders correctly 1`] = `
+<div
+  className="api-key"
+>
+  <p>
+    Before you can use this application you need to provide an API key from the 
+    <a
+      href="http://www.omdbapi.com/apikey.aspx"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      OMDb API
+    </a>
+     site.  Please sign-up there and obtain a key before proceeding.
+  </p>
+  <input
+    className="api-key__field"
+    placeholder="Insert API Key Here"
+  />
+  <button
+    className="api-key__button"
+    onClick={[Function]}
+    type="submit"
+  >
+    Submit
+  </button>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTitle renders correctly initially 1`] = `
+<div
+  className="add-title"
+>
+  <input
+    className="add-title__field"
+    onChange={[Function]}
+    placeholder="Search for a Movie to Add..."
+    type="text"
+  />
+  <p />
+</div>
+`;

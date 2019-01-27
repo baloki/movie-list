@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieList renders a movie item 1`] = `
+<div
+  className="movie-list"
+>
+  <div
+    className="movie"
+  >
+    <img
+      alt=""
+      className="movie__poster"
+      src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+    />
+    <div
+      className="movie__details"
+    >
+      <h2>
+        The Avengers
+      </h2>
+      <p>
+        <strong>
+          Date Added to List:
+        </strong>
+         
+        <br />
+        <strong>
+          IMDB Rating:
+        </strong>
+         
+        8.1
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MovieList renders multiple movie items 1`] = `
+<div
+  className="movie-list"
+>
+  <div
+    className="movie"
+  >
+    <img
+      alt=""
+      className="movie__poster"
+      src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+    />
+    <div
+      className="movie__details"
+    >
+      <h2>
+        The Avengers
+      </h2>
+      <p>
+        <strong>
+          Date Added to List:
+        </strong>
+         
+        <br />
+        <strong>
+          IMDB Rating:
+        </strong>
+         
+        8.1
+      </p>
+    </div>
+  </div>
+  <div
+    className="movie"
+  >
+    <img
+      alt=""
+      className="movie__poster"
+      src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+    />
+    <div
+      className="movie__details"
+    >
+      <h2>
+        The Avengers
+      </h2>
+      <p>
+        <strong>
+          Date Added to List:
+        </strong>
+         
+        <br />
+        <strong>
+          IMDB Rating:
+        </strong>
+         
+        8.1
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MovieList renders only a container if no movies passed in 1`] = `
+<div
+  className="movie-list"
+/>
+`;

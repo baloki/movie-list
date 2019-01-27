@@ -1,0 +1,15 @@
+.movie {
+  border: 2px solid #fff;
+  border-radius: 0.5em;
+  margin: 0 1em 2em;
+  max-width: 16em;
+}
+
+.movie__poster {
+  border-radius: 0.45em;
+  max-width: 100%;
+}
+
+.movie__details {
+  padding: 0 1em 1em;
+}

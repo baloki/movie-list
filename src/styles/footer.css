@@ -1,0 +1,14 @@
+.footer {
+  background: #181818;
+  border-top: 1px solid white;
+  font-size: 0.8em;
+  justify-content: space-between;
+  line-height: 2em;
+  padding: 1em;
+}
+
+@media (min-width: 600px) {
+  .footer {
+    display: flex;
+  }
+}
