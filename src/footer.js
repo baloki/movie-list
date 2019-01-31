@@ -12,7 +12,7 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <div>
-          Created by <a href="http://www.loki7.co.uk">Phillip Vose</a>
+          Created by <a href="http://www.loki7.co.uk" className="footer__link" rel="noopener noreferrer" target="_blank">Phillip Vose</a>
         </div>
         {
           this.props.apiKey &&

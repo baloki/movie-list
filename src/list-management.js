@@ -68,23 +68,19 @@ class ListManagement extends Component {
   }
 
   render() {
-    if (this.state.movies.length === 0) {
-      return null;
-    }
-
     return (
       <div className="list-management">
-      <div className="list-management__tabs">
-        {
-          this.state.apiKey &&
-            <button
-              onClick={(event) => this.addTitle(event)}
-              className="list-management__button"
-            >
-              Add Title
-            </button>
-        }
-      </div>
+        <div className="list-management__tabs">
+          {
+            this.state.apiKey &&
+              <button
+                onClick={(event) => this.addTitle(event)}
+                className="list-management__button"
+              >
+                Add Title
+              </button>
+          }
+        </div>
         <AddTitle
           currentSearchResult={this.state.currentSearchResult}
           addMovie={this.addMovie.bind(this)}
