@@ -4,13 +4,13 @@
   "private": true,
   "homepage": "https://www.loki7.co.uk/movie-list",
   "dependencies": {
-    "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.8.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
     "lodash.debounce": "^4.0.8",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3",
-    "react-test-renderer": "^16.7.0"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "react-test-renderer": "^16.8.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,6 +28,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "jest-fetch-mock": "^2.1.0"
+    "jest-fetch-mock": "^2.1.2"
   }
 }
